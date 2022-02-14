@@ -21,24 +21,43 @@ module.exports = {
     logo: '/logo.jpg',
     sidebar: [
       {
-        title: '目录',
-        collapsable: false,
-        path: '/SUMMARY'
-      },
-      {
-        title: '简介',   // 必要的
+        title: '架构',   // 必要的
         collapsable: false, // 可选的, 默认值是 true,
-        path: '/personal',
+        path: '/architecture',
         children:[
-            '/personal/personal-avocation'
+            '/architecture/dev-ops'
         ]
       },
       {
-        title: ' 第一章 论增进劳动生产力的因素及分配劳动(1)',
+        title: '大数据',   // 必要的
         collapsable: false, // 可选的, 默认值是 true,
-        path: '/personal',
+        path: '/bigdata',
         children:[
-          '/personal/personal-production'
+          '/bigdata/personal-avocation'
+        ]
+      },
+      {
+        title: '微服务',
+        collapsable: false, // 可选的, 默认值是 true,
+        path: '/micro-service',
+        children:[
+          '/micro-service/spring-cloud/springcloud-gateway'
+        ]
+      },
+      {
+        title: '运维',
+        collapsable: false, // 可选的, 默认值是 true,
+        path: '/operation',
+        children:[
+          '/micro-service/spring-cloud/springcloud-gateway'
+        ]
+      },
+      {
+        title: '源码分析',
+        collapsable: false, // 可选的, 默认值是 true,
+        path: '/micro-service',
+        children:[
+          '/micro-service/spring-cloud/springcloud-gateway'
         ]
       }
     ]

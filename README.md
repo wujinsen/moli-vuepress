@@ -1,5 +1,5 @@
 
 
 <center>
-<img src='/architecture.png' >
+<img src='/logo.jpg' >
 </center>
