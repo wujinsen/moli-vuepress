@@ -26,7 +26,7 @@ ps -aux | grep kdevtmpfsi
 
 sudo kill -9 PID
 
-4. netstat -ltnp命令查看奇怪的监听端口，杀掉该进程
+4. netstat -ltnp命令查看奇怪的字母数字监听端口，杀掉该进程
 
 ls -l /proc/30902/exe
 
