@@ -1,5 +1,6 @@
 
 
 <center>
-<img src='/logo.jpg' >
+<img src='./logo.jpg' >
 </center>
+

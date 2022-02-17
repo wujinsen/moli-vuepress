@@ -21,6 +21,15 @@ module.exports = {
         logo: '/logo.jpg',
         sidebar: [
             {
+                title: '个人简介',   // 必要的
+                path: '/personal',
+                collapsable: false, // 可选的, 默认值是 true,
+                children: [
+                    '/personal/personal-avocation',
+                    '/personal/personal-production'
+                ]
+            },
+            {
                 title: '架构',   // 必要的
                 collapsable: false, // 可选的, 默认值是 true,
                 children: [{
@@ -63,7 +72,7 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 path: '/bigdata',
                 children: [
-                    '/bigdata/personal-avocation'
+                    '/bigdata/hadoop'
                 ]
             },
             {
