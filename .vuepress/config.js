@@ -39,8 +39,7 @@ module.exports = {
             {
                 title: '编程语言',   // 必要的
                 collapsable: false, // 可选的, 默认值是 true,
-                children: [
-                    {
+                children: [{
                         title: 'C',
                         path: '/language/c/'
                     },
