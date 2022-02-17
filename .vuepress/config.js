@@ -11,7 +11,6 @@ module.exports = {
         lineNumbers: false // 代码块显示行号
     },
     themeConfig: {
-
         nav: [ // 导航栏配置
             {text: '首页', link: '/'},
             {text: '图虫', link: 'https://tuchong.com/16557320/'},
@@ -72,13 +71,13 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 path: '/bigdata',
                 children: [
-                    '/bigdata/hadoop'
+                    '/bigdata/hadoop/hadoop'
                 ]
             },
             {
                 title: '微服务',
                 collapsable: false, // 可选的, 默认值是 true,
-                // path: '/micro-service',
+                path: '/micro-service',
                 children: [
                     '/micro-service/spring-cloud/'
                 ]
