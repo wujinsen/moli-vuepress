@@ -1,7 +1,7 @@
 # 安装文档
 
 :::tip
- DevOps安装文档，开发测试环境的各种软件安装信息、配置信息，统一记录归档，方便开发运维人员查阅部署、性能调优以及故障排查。
+ DevOps安装文档
 :::
 
 - [jdk安装文档:](/operation/install-software/jdk)
@@ -13,3 +13,8 @@
 - [confluence安装文档:](/operation/install-software/confluence)
 - [gitlab安装文档:](/operation/install-software/gitlab)
 - [skywalking安装文档:](/operation/install-software/skywalking)
+- [nexus安装文档:](/operation/install-software/nexus)
+- [minio安装文档:](/operation/install-software/minio)
+- [docker安装文档:](/operation/install-software/docker)
+- [kubernetes安装文档:](/operation/install-software/kubernetes)
+- [jenkins安装文档:](/operation/install-software/jenkins)

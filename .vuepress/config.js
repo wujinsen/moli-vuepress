@@ -86,8 +86,26 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 path: '/operation',
                 children: [
-                    '/operation/spring-cloud/springcloud-gateway'
+                    {
+                        title: '软件安装文档',
 
+                        path: '/operation/install-software/',
+                        children: [
+                            '/operation/install-software/jdk',
+                            '/operation/install-software/mysql',
+                            '/operation/install-software/redis',
+                            '/operation/install-software/minio',
+                            '/operation/install-software/jira',
+                            '/operation/install-software/confluence',
+                            '/operation/install-software/docker',
+                            '/operation/install-software/kubernetes',
+                            '/operation/install-software/rocketmq',
+                            '/operation/install-software/gitlab',
+                            '/operation/install-software/jenkins',
+                            '/operation/install-software/skywalking',
+                            '/operation/install-software/nexus'
+                        ]
+                    }
                 ]
             },
             {
