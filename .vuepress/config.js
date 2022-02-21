@@ -25,7 +25,8 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 children: [
                     '/personal/personal-avocation',
-                    '/personal/personal-production'
+                    '/personal/personal-production',
+                    '/personal/personal-gongzonghao',
                 ]
             },
             {
@@ -88,7 +89,6 @@ module.exports = {
                 children: [
                     {
                         title: '软件安装文档',
-
                         path: '/operation/install-software/',
                         children: [
                             '/operation/install-software/jdk',
