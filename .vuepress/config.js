@@ -40,6 +40,7 @@ module.exports = {
             {
                 title: '编程语言',   // 必要的
                 collapsable: false, // 可选的, 默认值是 true,
+                path: '/language',
                 children: [{
                         title: 'C',
                         path: '/language/c/'
@@ -50,10 +51,7 @@ module.exports = {
                         path: '/language/java/',
                         children: [{
                             title: '并发编程',
-                            path: '/language/java/concurrency',
-                            children: [
-                                '/language/java/concurrency'
-                            ]
+                            path: '/language/java/concurrency/'
                         }]
                     },
                     {
@@ -61,7 +59,7 @@ module.exports = {
                         path: '/language/scala/',
                         collapsable: false,
                         children: [
-                            '/language/scala/concurrency'
+                            '/language/scala/concurrency/'
                         ]
                     }
                 ]
@@ -115,17 +113,11 @@ module.exports = {
                 children: [{
                     title: 'docker',
                     collapsable: false,
-                    path: '/container/docker',
-                    children: [
-                        '/container/docker'
-                    ]
+                    path: '/container/docker/'
                 }, {
                     title: 'kubernetes',
                     collapsable: false,
-                    path: '/container/kubernetes',
-                    children: [
-                        '/container/kubernetes'
-                    ]
+                    path: '/container/kubernetes/'
                 }
                 ]
             },
