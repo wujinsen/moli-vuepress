@@ -69,7 +69,15 @@ module.exports = {
                 collapsable: false, // 可选的, 默认值是 true,
                 path: '/bigdata',
                 children: [
-                    '/bigdata/hadoop/hadoop'
+                    '/bigdata/hadoop/hadoop',
+                    {
+                        title: 'datax',   // 必要的
+                        collapsable: false, // 可选的, 默认值是 true,
+                        path: '/bigdata/datax',
+                        children:[
+                            '/bigdata/datax/secondary-development'
+                        ]
+                    }
                 ]
             },
             {
@@ -119,6 +127,14 @@ module.exports = {
                     collapsable: false,
                     path: '/container/kubernetes/'
                 }
+                ]
+            },
+            {
+                title: '安全',
+                collapsable: false, // 可选的, 默认值是 true,
+                path: '/safety',
+                children: [
+                    '/safety/cloud-server-virus-solve'
                 ]
             },
             {

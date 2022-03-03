@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/htg-vuepress.iml" filepath="$PROJECT_DIR$/.idea/htg-vuepress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/moli-vuepress.iml" filepath="$PROJECT_DIR$/.idea/moli-vuepress.iml" />
     </modules>
   </component>
 </project>
