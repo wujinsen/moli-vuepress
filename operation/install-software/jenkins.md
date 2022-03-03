@@ -1,4 +1,4 @@
-# Jenkins安装教程
+# Jenkins部署教程
 
 机器ip: 121.89.243.115 用户: develop
 
@@ -63,7 +63,7 @@ git仓库无论是gitlab还是本地git，都通用
 
 - gitlab:
 
-htg-crm-project项目添加121.89.243.115(jenkins所在机器)机器的公钥，并在机器上git clone能否免密检出项目
+项目添加(jenkins所在机器)机器的公钥，并在机器上git clone能否免密检出项目
 - git本地仓库:
 
 git init 创建本地仓库
@@ -97,19 +97,19 @@ gitlab<-->jenkins<--> 服务器之间就能打通了
 
 
 
-- htg-crm-dev发布脚本:
+- 项目发布脚本:
 ```
 
-cp /var/lib/jenkins/workspace/htg-crm-server-dev/htg-crm-server/target/htg-crm-server-1.0-SNAPSHOT.jar /opt/project/htg-crm-project/
-/opt/project/htg-crm-project/startup.sh restart
+cp /var/lib/jenkins/workspace/moli-project.jar /opt/project/moli-project
+/opt/project/moli-project/startup.sh restart
 
 ```
 
-- htg-web-dev发布脚本:
+- moli-dev发布脚本:
 ```
 node -v
 npm -v
-webPath=/opt/project/htg-crm-web/
+webPath=/opt/project/moli-web/
 npm install
 npm run build
 zip -q -r dist.zip dist/m

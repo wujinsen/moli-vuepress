@@ -1,4 +1,4 @@
-# skywalking安装文档
+# skywalking部署文档
 
 
 1.下载解压

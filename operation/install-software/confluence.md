@@ -1,4 +1,4 @@
-# confluence安装
+# confluence部署
 
 
 1.下载解压:

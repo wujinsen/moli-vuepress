@@ -1,1 +1,1 @@
-# redis安装
+# redis部署

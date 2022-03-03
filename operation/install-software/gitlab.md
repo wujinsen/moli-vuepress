@@ -1,4 +1,4 @@
-# gitlab安装
+# gitlab部署
 
 
 1. 下载gitlab及安装依赖:

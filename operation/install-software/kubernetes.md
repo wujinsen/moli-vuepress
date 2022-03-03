@@ -1,1 +1,1 @@
-# kubernetes安装
+# kubernetes部署

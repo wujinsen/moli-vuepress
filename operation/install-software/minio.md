@@ -1,5 +1,5 @@
 
-# minio安装
+# minio部署
 
 1.下载linux minio
 http://dl.minio.org.cn/server/minio/release/linux-amd64/minio
