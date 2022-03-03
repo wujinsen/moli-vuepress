@@ -86,7 +86,7 @@ module.exports = {
                 path: '/operation',
                 children: [
                     {
-                        title: '软件安装文档',
+                        title: '软件部署文档',
                         path: '/operation/install-software/',
                         children: [
                             '/operation/install-software/jdk',
@@ -109,7 +109,7 @@ module.exports = {
             {
                 title: '容器',
                 collapsable: false, // 可选的, 默认值是 true,
-                path: '/container',
+                path: '/container_platform',
                 children: [{
                     title: 'docker',
                     collapsable: false,

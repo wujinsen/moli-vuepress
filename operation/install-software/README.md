@@ -1,8 +1,12 @@
 # 部署文档
 
+- aaaa
+
+
 :::tip
  DevOps部署文档
 :::
+
 
 - [jdk部署文档:](/operation/install-software/jdk)
 - [mysql部署文档:](/operation/install-software/mysql)
