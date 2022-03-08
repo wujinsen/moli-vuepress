@@ -77,6 +77,13 @@ module.exports = {
                         children:[
                             '/bigdata/datax/secondary-development'
                         ]
+                    },{
+                        title: 'elasticsearch',   // 必要的
+                        collapsable: false, // 可选的, 默认值是 true,
+                        path: '/bigdata/elasticsearch',
+                        children:[
+                            '/bigdata/elasticsearch'
+                        ]
                     }
                 ]
             },
