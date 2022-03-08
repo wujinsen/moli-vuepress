@@ -124,15 +124,15 @@ module.exports = {
             {
                 title: '容器',
                 collapsable: false, // 可选的, 默认值是 true,
-                path: '/container_platform',
+                path: '/container-platform',
                 children: [{
                     title: 'docker',
                     collapsable: false,
-                    path: '/container/docker/'
+                    path: '/container-platform/docker/'
                 }, {
                     title: 'kubernetes',
                     collapsable: false,
-                    path: '/container/kubernetes/'
+                    path: '/container-platform/kubernetes/'
                 }
                 ]
             },
