@@ -35,3 +35,5 @@ perf top -s comm,pid,symbol 查看进程
 ls -l /proc/30902/exe 查看病毒所在目录
 
 上面的步骤多重复几遍
+
+## 
