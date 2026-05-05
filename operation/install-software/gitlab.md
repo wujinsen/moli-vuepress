@@ -1,5 +1,11 @@
+---
+title: gitlab部署
+date: 2026-05-06
+description: gitlab部署 - operation 相关文章
+tags:
+  - operation
+---
 # gitlab部署
-
 
 1. 下载gitlab及安装依赖:
 gitlab-ce-12.3.5-ce.0.el7.x86_64.rpm
@@ -25,7 +31,5 @@ listen *:9099;
 gitlab-ctl reconfigure 重新加载配置
 gitlab-ctl start 启动
 
-
 地址： http://121.89.243.115:8204
-
 

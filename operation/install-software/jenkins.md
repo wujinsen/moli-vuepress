@@ -1,3 +1,10 @@
+---
+title: Jenkins部署教程
+date: 2026-05-06
+description: Jenkins部署教程 - operation 相关文章
+tags:
+  - operation
+---
 # Jenkins部署教程
 
 机器ip: 121.89.243.115 用户: develop
@@ -81,7 +88,6 @@ Private Key: /opt/.ssh/id_rsa
 
 gitlab<-->jenkins<--> 服务器之间就能打通了
 
-
 ### 9.maven配置及config插件
 
 - 9.1 jenkins添加maven配置
@@ -92,10 +98,6 @@ gitlab<-->jenkins<--> 服务器之间就能打通了
 
 ![](./img/jenkins/img_4.png)
 ![](./img/jenkins/img_5.png)
-
-
-
-
 
 - 项目发布脚本:
 ```

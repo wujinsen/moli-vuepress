@@ -1,3 +1,10 @@
+---
+title: minio部署
+date: 2026-05-06
+description: minio部署 - operation 相关文章
+tags:
+  - operation
+---
 
 # minio部署
 
@@ -30,5 +37,4 @@ export MINIO_SECRET_KEY=minioadmin
  nohup ./minio server ./mnt/data  --address 0.0.0.0:9000 --console-address 0.0.0.0:9001 &
 
 192.168.2.12:9000 登录页面
-
 

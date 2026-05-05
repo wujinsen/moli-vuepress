@@ -1,3 +1,10 @@
+---
+title: jdk部署
+date: 2026-05-06
+description: jdk部署 - operation 相关文章
+tags:
+  - operation
+---
 # jdk部署
 
 1.下载jdk jdk1.8.0_301
@@ -7,5 +14,4 @@
 export JAVA_HOME=/usr/local/java/jdk1.8.0_301
 export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 export PATH=$PATH:$JAVA_HOME/bin
-
 

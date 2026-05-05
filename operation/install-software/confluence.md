@@ -1,5 +1,11 @@
+---
+title: confluence部署
+date: 2026-05-06
+description: confluence部署 - operation 相关文章
+tags:
+  - operation
+---
 # confluence部署
-
 
 1.下载解压:
 
@@ -19,14 +25,9 @@
 
 - 2.2 添加mysql8驱动:
 
-
 /opt/atlassian-confluence-7.13.0/confluence/WEB-INF/lib/
-
 
 3. pojie
 
 4.pojie完毕后重启即可
-
-
-
 

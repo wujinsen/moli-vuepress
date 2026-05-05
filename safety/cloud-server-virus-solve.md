@@ -1,3 +1,10 @@
+---
+title: 云服务器中毒的解决方法
+date: 2026-05-06
+description: 云服务器中毒的解决方法 - safety 相关文章
+tags:
+  - safety
+---
 # 云服务器中毒的解决方法
 
 - 中了挖矿病毒最显著的表现为: cpu飚的很高
@@ -27,9 +34,7 @@ crontab -e 删除定时任务
 
 netstat -ltnp命令查看奇怪的监听端口，杀掉该进程
 
-
 ls -l /proc/30902/exe
-
 
 perf top -s comm,pid,symbol 查看进程
 ls -l /proc/30902/exe 查看病毒所在目录

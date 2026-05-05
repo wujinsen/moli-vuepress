@@ -5,13 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev",
-    "build": "vuepress build",
-    "deploy": "bash deploy.sh"
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build",
+    "deploy": "bash deploy.sh",
+    "docs:normalize": "node scripts/normalize-docs.js",
+    "docs:check": "node scripts/validate-docs.js",
+    "ci:check": "npm run docs:check && npm run build"
   },
   "author": "MOLI",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.9.7"
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-feed": "^0.1.9",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }

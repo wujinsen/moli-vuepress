@@ -1,3 +1,10 @@
+---
+title: Elasticsearch写流程
+date: 2026-05-06
+description: Elasticsearch写流程 - bigdata 相关文章
+tags:
+  - bigdata
+---
 # Elasticsearch写流程
 
 写入单个文档: Index请求
