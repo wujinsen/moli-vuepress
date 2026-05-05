@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const repoRoot = path.resolve(__dirname, "..");
-const skipDirs = new Set([".git", ".vuepress", "node_modules", ".github", "scripts"]);
+const skipDirs = new Set([".git", ".vuepress", "node_modules", ".github", "scripts", ".venv"]);
 const requiredTopLevelReadmes = [
   "architecture",
   "bigdata",

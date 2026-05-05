@@ -27,7 +27,7 @@ function resolveMarkdownPath(vuepressPath) {
 }
 
 function collectMarkdownFiles(dir, files = []) {
-  const skipDirs = new Set([".git", ".vuepress", "node_modules", ".github", "scripts"]);
+  const skipDirs = new Set([".git", ".vuepress", "node_modules", ".github", "scripts", ".venv"]);
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     if (entry.isDirectory()) {
       if (skipDirs.has(entry.name)) continue;

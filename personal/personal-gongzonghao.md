@@ -10,6 +10,6 @@ tags:
 
 微信公众号-moli技术分享
 
-<center
+<center>
 <img src='./weixin.png' >
 </center>

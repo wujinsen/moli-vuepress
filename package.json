@@ -10,11 +10,16 @@
     "deploy": "bash deploy.sh",
     "docs:normalize": "node scripts/normalize-docs.js",
     "docs:check": "node scripts/validate-docs.js",
+    "docs:i18n:init": "node scripts/generate-i18n-skeleton.js",
+    "docs:i18n:sync-fallback": "node scripts/sync-i18n-fallback.js",
+    "docs:i18n:translate": "python3 scripts/translate_i18n.py",
+    "docs:i18n:polish": "python3 scripts/polish_i18n_terms.py",
     "ci:check": "npm run docs:check && npm run build"
   },
   "author": "MOLI",
   "license": "ISC",
   "devDependencies": {
+    "vue-i18n": "^8.28.2",
     "vuepress": "^1.9.7",
     "vuepress-plugin-feed": "^0.1.9",
     "vuepress-plugin-sitemap": "^2.3.1"
